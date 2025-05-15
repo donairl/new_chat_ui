@@ -323,6 +323,9 @@ body {
 .icon-container{
     display: flex;
     justify-content: flex-end;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    font-size: 16px;
 
 }
 .icon-container i:hover{
