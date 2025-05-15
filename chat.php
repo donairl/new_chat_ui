@@ -54,7 +54,7 @@ $member_ip = $_SERVER['REMOTE_ADDR'];
             </div>
         </div>
         <div class="chat-input">
-            <input type="text" placeholder="Ketik pesan Anda..." id="messageInput">
+            <input type="text" placeholder="Type your message here..." id="messageInput">
             <button id="sendButton"><i class="fas fa-paper-plane"></i></button>
         </div>
     </div>
