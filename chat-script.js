@@ -197,7 +197,7 @@ function sendMessage(message = null) {
         messageContent.className = 'message-content';
         messageContent.innerHTML = content;
         //add icon copy to clipboard if user =false
-        if(!isUser){
+        if(!isUser && id != 0){
            
 
             const iconContainer = createIconContainer(content, id);
